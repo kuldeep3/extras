@@ -1,0 +1,136 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Register</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div id="particles-js" class="container">
+		<form>
+            <h3>Admission Details</h3>
+                    <div class="row">
+                        <div class="col">
+                            <label for="admissionNum">Admission No</label>
+                        <input id="admissionNum" type="text" class="form-control" required>
+                        </div>
+                        <div class="col">
+                            <label for="admissiond">Admission Date</label>
+                        <input id="admissiond" type="date" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col">
+                            <label for="refer">Refrence</label>
+                            <input id="refer" type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="cat">Category</label>
+                                  <select id="cat" class="form-control" required>
+                                    <option selected>Remote</option>
+                                    <option>...</option>
+                                  </select>
+
+                            </div>
+                    </div>
+                    <div>
+                    <label for="condition">Condition</label required> </div>
+                            <div id="condition" class="form-check form-check-inline">  
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Autism</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">ADHD</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                              <label class="form-check-label" for="inlineCheckbox3">Learning-Disability</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                              <label class="form-check-label" for="inlineCheckbox4">Down-Syndrome</label>
+                            </div> 
+                            <br> 
+                            <br>
+                    </div>
+    <div class="container">
+    <h3>Personal Details</h3>
+            <div class="row">
+            <div class="col">
+                <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" required>
+            </div>
+            <div class="col">
+                <label for="dob">Date of Birth</label>
+            <input id="dob" type="date" class="form-control" required>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col">
+                <label for="gender">Gender</label>
+                  <select id="gender" class="form-control" required>
+                    <option selected>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
+            </div>
+            <div class="col">
+                <label for="name">Learner Photo</label>
+            <input id="name" type="file" class="form-control-file">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col">
+                <label for="staff">Staff Authorized</label>
+                  <select id="staff" class="form-control" required>
+                    <option selected>None Selected</option>
+                    <option>---</option>
+                    <option>---</option>
+                  </select>
+              </div>
+              <div class="col">
+                <label for="add">Address</label>
+            <input id="add" type="text" class="form-control">
+            </div>
+        </div>
+</div>
+</div>
+
+    <div class="container">
+        <h3>Parent/Gaurdian Details</h3> <button type="" class="btn btn-primary old">Add more Details</button>
+        <div class="row">
+            <div class="col">
+                <label for="name">Name</label>
+                  <input id="name" type="text" class="form-control" required>
+              </div>
+              <div class="col">
+                <label for="relation">Relationship</label>
+            <select id="relation" class="form-control" required>
+                <option selected>Father</option>
+                <option>Mother</option>
+            </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="mobile">Mobile</label>
+                <input type="text" id="mobile" class="form-control" required>
+            </div>
+            <div class="col">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary new">Save</button>
+    </div>
+        
+</form>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    $("input[required]").parent("label").addClass("required");
+</script>
+</body>
+</html>
