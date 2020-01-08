@@ -1,0 +1,254 @@
+.btn{
+	border-radius: 50px;
+}
+.mbr-section-btn{
+	text-align: center;
+}
+.mbr-section-title{
+	text-align: center;
+}
+.background {
+	background: url(https://mobirise.com/extensions/techm4/assets/images/mbr.jpg);
+	/*padding: 50px;*/
+}
+.nav-item{
+	color:#57468b!important;
+	font-size: 1rem;
+
+}
+.nav-icon{
+	font-size: 1.8rem;
+}
+.nav-btn{
+	opacity: 4;
+	align-items: right;
+	background-color: #bfceff;
+	color: white;
+}
+.nav-btn:hover{
+	box-shadow: 0 5px 35px 5px #bfceff;
+	color: white;
+}
+.img1{
+	border-radius: 30px;
+	width: 70%;
+	box-shadow: 0 10px 60px 10px rgba(137, 173, 255, 0.35);
+}
+.img2{
+	position: relative;
+	top:70px;
+}
+.btn-about{
+	background-color: #ff8a73; 
+	color: white;
+}
+.btn-about:hover{
+	box-shadow: 0 10px 20px 5px #ff8a73;
+	color: white;
+}
+.btn-read{
+	color: white;
+	background-color: #5580ff;
+}
+.btn-read:hover{
+	box-shadow: 0 10px 20px 5px #5580ff;
+	color: white;
+}
+
+.card {
+display: flex;
+overflow: hidden;
+}
+
+.card-box:hover {
+box-shadow: 0 10px 60px 10px rgba(137,173,255,0.35);
+transform: translateY(-1.5rem);
+transition: 0.5s all;
+}
+.card-box {
+padding: 2rem 1.5rem;
+border-radius: 3%;
+}
+.box1{
+	box-shadow: 0 10px 60px 10px rgba(137,173,255,0.35);
+	border-radius: 20px;
+	/*padding: 1rem 1rem;*/
+	display: flex;
+	justify-content: flex-start;
+
+}
+.container{
+	/*padding: 10% 0 0 0 ;*/
+	align-items: center;
+}
+/*.card-img-top:hover {
+box-shadow: 0 10px 60px 10px rgba(137,173,255,0.35);
+transform: scale(1.1 );
+opacity: .8;
+}*/
+.card-img-top{
+	transition: transform .5s ease;
+}
+
+.vl {
+  border-left: 2px solid green;
+  height: 125px;
+  justify-content: center;
+}
+.cr-img{
+	border-radius: 100%;
+	height: 80px;
+	width: 80px;
+}
+
+.navbar {
+  max-width: 1000px;
+  /*height: 70px;*/
+  margin: auto;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: transform 0.5s ease;
+  opacity: .8;
+}
+.navbar: hover{
+	transform: scale(1.2); 
+}
+
+.text1{
+	font-size: 1.5rem;
+	color: #c1c1c1;
+}
+.card-deck img{
+	border-radius: 5%;
+}
+
+.row{
+	width: 100%;
+	margin: 0;
+}
+.form-group input{
+	background-color: #f2f6ff;
+	border: none;
+	font-size: 1.2rem;
+	width: 100%;
+	
+}
+.form-group input:focus {
+	background-color: #f2f6ff;
+	border: none;
+	box-shadow: none;
+}
+.form-control{
+	width: 100%;
+}
+
+.contain{
+	position: relative;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+}
+.contain:hover .card-img-top{
+	transform: scale(1.1 );
+	opacity: .8;
+	background: black;
+}
+.contain:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.over{
+	opacity: 0;
+	position: absolute; 
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background-color: #232323;
+}
+
+
+.icon{
+	color: white;
+  font-size: 2.75rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+.contain:hover .icon{
+	opacity: 1;
+}
+.contain:hover .over{
+	opacity: .6;
+}
+.text-blue{
+	color: #57468b;
+	font-size: 1.25rem;
+}
+.change{
+	color: #57468b;
+	font-size: 1.25rem;
+}
+.change div:hover{
+	color: #ff8a73 ;
+}
+.flxright{
+	display: flex;
+	justify-content: flex-end;
+	text-align:right;
+}
+.flxleft{
+	display: flex;
+	justify-content: flex-start;
+	text-align:left;
+}
+.right{
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .mq1{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mq2{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .flxleft{
+    text-align:center;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .mqicon{
+  	width: 100%;
+  }
+  .flxright{
+    text-align:center;
+    flex-wrap: wrap-reverse;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .mqicon{
+  	width: 100%;
+  }
+}
