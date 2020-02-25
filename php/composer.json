@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "require": {
+        "mikehaertl/phpwkhtmltopdf": "^2.4"
+    }
+}
