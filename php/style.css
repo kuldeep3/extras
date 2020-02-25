@@ -5,9 +5,15 @@ tr { page-break-inside: avoid !important } */
 tfoot { display: table-row-group !important;} */
 /* tbody tr td { page-break-inside: avoid !important;} */
 /* thead tr {page-break-before: always !important;} */
+/* thead tr {
+    height: 300cm !important;
+} */
 
 
 @media print {
+    /* thead tr {
+        height: 300cm !important;
+    } */
     /* .new {
         overflow: visible !important;
     } */
@@ -19,10 +25,10 @@ tfoot { display: table-row-group !important;} */
     }
     tfoot {
         display: table-row-group !important;
-    }  */
+    } 
     tr {
         page-break-inside: avoid !important;
-    }
+    } */
     /* thead tr{
         page-break-before: always !important;
     } */

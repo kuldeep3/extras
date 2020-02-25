@@ -38,16 +38,19 @@ $result = $_SESSION['res'];
         </thead>
         <tbody>
             <tr>
-                <td>
+                <td colspan=4>
                     <p><?php echo ($result['paragraph_one']); ?></p>
                 </td>
-                <td>
+            </tr><tr>
+                <td colspan=4>
                     <p><?php echo ($result['paragraph_two']); ?></p>
                 </td>
-                <td>
+            </tr><tr>
+                <td colspan=4>
                     <p><?php echo ($result['paragraph_three']); ?></p>
                 </td>
-                <td>
+            </tr><tr>
+                <td colspan=4>
                     <p><?php echo ($result['paragraph_four']); ?></p>
                 </td>
             </tr>
