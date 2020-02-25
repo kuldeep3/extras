@@ -18,5 +18,12 @@ if (!$pdf->saveAs("$id.pdf")) {
     $error = $pdf->getError();
     // ... handle error here
 } else {
+    header('Content-Type: application/pdf');
     header('location:/');
 }
+
+// use Knp\Snappy\Pdf;
+// $snappy = new Pdf('E:\snappy\wkhtmltopdf\bin\wkhtmltopdf.exe');
+// header('Content-Type: application/pdf');
+// header('Content-Disposition: attachment; filename="file.pdf"');
+// echo $snappy->getOutput('http://localhost/demo.php');

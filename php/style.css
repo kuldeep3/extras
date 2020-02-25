@@ -1,0 +1,39 @@
+/* table { overflow: visible !important; }
+thead { display: table-header-group !important }
+tr { page-break-inside: avoid !important } */
+/* thead { display: table-header-group !important;}
+tfoot { display: table-row-group !important;} */
+/* tbody tr td { page-break-inside: avoid !important;} */
+/* thead tr {page-break-before: always !important;} */
+
+
+@media print {
+    /* .new {
+        overflow: visible !important;
+    } */
+    /* table {
+        overflow: visible !important;
+    }
+     thead {
+        display: table-header-group !important;
+    }
+    tfoot {
+        display: table-row-group !important;
+    }  */
+    tr {
+        page-break-inside: avoid !important;
+    }
+    /* thead tr{
+        page-break-before: always !important;
+    } */
+    /* tbody tr td {
+        page-break-inside: avoid !important;
+    } */
+    /* table {
+        page-break-inside: auto !important;
+    }
+    tr {
+        page-break-inside: avoid !important;
+        page-break-after: auto !important;
+    } */
+}

@@ -5,6 +5,7 @@
         ]
     },
     "require": {
-        "mikehaertl/phpwkhtmltopdf": "^2.4"
+        "mikehaertl/phpwkhtmltopdf": "^2.4",
+        "knplabs/knp-snappy": "^1.2"
     }
 }
