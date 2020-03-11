@@ -1,0 +1,12 @@
+.custom {
+	margin: 280px auto;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.button {
+	position: absolute;
+	left: 50%;
+}
