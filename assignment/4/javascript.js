@@ -67,8 +67,11 @@ function checkFieldinterest(id){
   }
 }
 
-function simpleinterest() {
-  var principal = document.getElementById(Principal).value ; 
-  var years = document.getElementById(Principal).value ; 
-  var interest = document.getElementById(Principal).value;
+function simpleInterest() {
+  var principal = document.getElementById("Principal").value ; 
+  var years = document.getElementById("years").value ; 
+  var interest = document.getElementById("interest").value;
+  var total = (principal * years * interest)/100;
+  document.getElementById("result").innerHTML = "The simple interest is:  " +total;
+
 }
