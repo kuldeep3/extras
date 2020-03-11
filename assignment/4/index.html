@@ -14,44 +14,46 @@
 </head>
 <body>
 	<div class="container custom">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 mb-3">
-				<div class="input-group" style="max-width: 300px;">
-					<div class="input-group-prepend">
-						<span class="input-group-text">
-							<i class="fas fa-clock" aria-hidden="true"></i>
-						</span>
+		<form method="POST" action="" name="theform">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 mb-3">
+					<div class="input-group" style="max-width: 300px;">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-clock" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="Principal" placeholder="Enter Principal *" name="Principal" onkeyup="checkFieldPrincipal('Principal')" onblur="checkFieldPrincipal('Principal')" required/>
 					</div>
-					<input type="text" class="form-control" id="registration" placeholder="Enter Principal *" name="registration" onkeyup="checkFieldRegistration('registration')" onblur="checkFieldRegistration('registration')">
+					<small class="form-text text-muted text-success" id="errorPrincipal" style="padding: 10px 0;"></small>
 				</div>
-				<small class="form-text text-muted text-success" id="errorregistration" style="padding: 10px 0;"></small>
-			</div>
-			<div class="col-lg-4 col-md-4 mb-3">
-				<div class="input-group" style="max-width: 300px;">
-					<div class="input-group-prepend">
-						<span class="input-group-text">
-							<i class="fas fa-clock" aria-hidden="true"></i>
-						</span>
+				<div class="col-lg-4 col-md-4 mb-3">
+					<div class="input-group" style="max-width: 300px;">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-clock" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="years" placeholder="Enter number of years *" name="years" onkeyup="checkFieldyears('years')" onblur="checkFieldyears('years')" required/>
 					</div>
-					<input type="text" class="form-control" id="registration" placeholder="Enter number of years *" name="registration" onkeyup="checkFieldRegistration('registration')" onblur="checkFieldRegistration('registration')">
+					<small class="form-text text-muted text-success" id="erroryears" style="padding: 10px 0;"></small>
 				</div>
-				<small class="form-text text-muted text-success" id="errorregistration" style="padding: 10px 0;"></small>
-			</div>
-			<div class="col-lg-4 col-md-4 mb-3" >
-				<div class="input-group" style="max-width: 300px;">
-					<div class="input-group-prepend">
-						<span class="input-group-text">
-							<i class="fas fa-clock" aria-hidden="true"></i>
-						</span>
+				<div class="col-lg-4 col-md-4 mb-3" >
+					<div class="input-group" style="max-width: 300px;">
+						<div class="input-group-prepend">
+							<span class="input-group-text">
+								<i class="fas fa-clock" aria-hidden="true"></i>
+							</span>
+						</div>
+						<input type="text" class="form-control" id="interest" placeholder="Enter rate of interest *" name="interest" onkeyup="checkFieldinterest('interest')" onblur="checkFieldinterest('interest')" required/>
 					</div>
-					<input type="text" class="form-control" id="registration" placeholder="Enter rate of interest *" name="registration" onkeyup="checkFieldRegistration('registration')" onblur="checkFieldRegistration('registration')">
+					<small class="form-text text-muted text-success" id="errorinterest" style="padding: 10px 0;"></small>
 				</div>
-				<small class="form-text text-muted text-success" id="errorregistration" style="padding: 10px 0;"></small>
 			</div>
-		</div>
-		<div class="wrapper">
-			<button type="button" class="btn btn-outline-primary">Get Simple Interest</button>
-		</div>
+			<div class="wrapper">
+				<button type="submit" value="submit" class="btn btn-outline-primary" id="submitbutton">Get Simple Interest</button>
+			</div>
+		</form>
 	</div>
 	<script type="text/javascript" src="javascript.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
