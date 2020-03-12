@@ -1,0 +1,35 @@
+.first {
+	background-color: lightblue;
+	color: red;
+	padding: 10px;
+	margin: 10px;
+	border-style: dashed;
+}
+.second {
+	background-color: yellow;
+	color: pink;
+	padding: 20px;
+	margin: 20px;
+	border-style: hidden;
+}
+.third {
+	background-color: green;
+	color: blue;
+	padding: 30px;
+	margin: 30px;
+	border-style: solid;
+}
+.fourth {
+	background-color: aqua;
+	color: orange;
+	padding: 40px;
+	margin: 40px;
+	border-style: double;
+}
+.fifth {
+	background-color: white;
+	color: purple;
+	padding: 50px;
+	margin: 50px;
+	border-style: groove;
+}
